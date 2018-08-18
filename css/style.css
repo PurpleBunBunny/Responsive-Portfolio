@@ -80,3 +80,20 @@ footer {
     padding-top: 20px;
     text-align: center;
 }
+
+/* Tried to do mobile transition stuff, literally couldnt figure out what I was doing wrong, spent hours on it */
+
+@media screen  and (max-width: 960px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        /* height: 75px; */
+        position: static;
+    }
+}
